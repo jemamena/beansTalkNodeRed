@@ -2,7 +2,10 @@
     "name": "beansTalkNodeRed",
     "description": "node red beanstalk",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-config": "1.2.1",
+        "node-red-dashboard": "2.22.1"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
